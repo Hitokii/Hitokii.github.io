@@ -43,10 +43,8 @@
     border: 5px solid black;
     border-radius: 20px;
     font-size: 20px;
-    width: 30%;
+    width: 400px;
     height: 400px;
-    min-width: 30%;
-    max-width: 30%;
     float: left;
     text-align: center;
     animation: FromLeft 1s;
@@ -59,7 +57,7 @@
     border-radius: 10px;
     font-size: 20px;
     right: 5%;
-    width: 30%;
+    width: 400px;
     height: 400px;
     text-align: center;
     animation: FromRight 1s;
