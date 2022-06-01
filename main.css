@@ -30,20 +30,43 @@
     }
 }
 
+@keyframes FromBot {
+    0% {
+        opacity: 0;
+        margin-top: 10%;
+        bottom: -20%;
+    }
+
+    50% {
+        opacity: 0.5;
+        margin-top: 5%;
+        bottom: 25%;
+    }
+
+    100% {
+        opacity: 1;
+        margin-top: 0%;
+        bottom: 20%;
+    }
+}
+
+html, body {background-color: black;}
 
 .title {
     text-align: center;
     font-family: titlefont;
     font-size: 40px;
+    color: white;
 }
 
 .language {
     position: relative;
     left: 5%;
-    border: 5px solid black;
+    border: 5px solid white;
     border-radius: 20px;
     font-size: 20px;
     width: 30%;
+    color: white;
     max-width:30%;
     height: 30%;
     float: left;
@@ -52,10 +75,11 @@
 }
 
 .Proposition {
+    color: white;
     position: relative;
     float: right;
-    border: 5px solid black;
-    border-radius: 10px;
+    border: 5px solid white;
+    border-radius: 20px;
     font-size: 20px;
     right: 5%;                                                                                   
     width: 30%;
@@ -73,3 +97,33 @@
     top: 10%;
     left: 40%;
   }
+
+.btnGithub {
+    position: absolute;
+    bottom: 20%;
+    left: 20%;
+    scale: 250%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    animation: FromBot 1s;
+    transition: 1s;
+}
+
+.btnGithub img {
+    width: 20px;
+    margin-right: 5px;
+    float: left;
+}
+
+.btnGithub a {
+    float: right;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+.btnGithub:hover {
+    scale: 350%;
+    transition: 500ms;
+}
