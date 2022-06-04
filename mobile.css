@@ -96,6 +96,14 @@
     background-color: white;
     border-radius: 5px;
     padding: 5px;
-    animation: FromBot 1s;
-    transition: 1s;
+}
+
+.btnAvis {
+    position: absolute;
+    bottom: 30%;
+    left: 25%;
+    scale: 250%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
 }

@@ -101,7 +101,7 @@ html, body {background-color: black;}
 .btnGithub {
     position: absolute;
     bottom: 20%;
-    left: 32%;
+    left: 20%;
     scale: 250%;
     background-color: white;
     border-radius: 5px;
@@ -127,4 +127,34 @@ html, body {background-color: black;}
     scale: 350%;
     transition: 500ms;
 }
-                                                         
+           
+.btnAvis {
+    position: absolute;
+    bottom: 20%;
+    left: 48%;
+    scale: 250%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    animation: FromBot 1s;
+    transition: 1s;
+}
+
+.btnAvis img {
+    width: 20px;
+    margin-right: 5px;
+    float: left;
+}
+
+.btnAvis a {
+    float: right;
+    text-decoration: none;
+    text-align: center;
+    color: black; 
+}
+
+.btnAvis:hover {
+    scale: 350%;
+    transition: 500ms;
+}
+          
