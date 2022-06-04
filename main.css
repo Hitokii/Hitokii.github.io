@@ -53,7 +53,7 @@
 html, body {background-color: black;}
 
 .title {
-    text-align: left;
+    text-align: center;
     font-family: titlefont;
     font-size: 40px;
     color: white;
