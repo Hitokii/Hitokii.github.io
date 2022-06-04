@@ -120,7 +120,7 @@ html, body {background-color: black;}
     float: right;
     text-decoration: none;
     text-align: center;
-    color: black;
+    color: black; 
 }
 
 .btnGithub:hover {
