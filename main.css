@@ -1,5 +1,7 @@
 
 @font-face { font-family: titlefont; src: url("assets/title.otf"); } 
+@font-face { font-family: secondfont; src: url("assets/font2.otf"); } 
+
 
 @keyframes fadeIn {
     0% {opacity:0;}
@@ -74,6 +76,11 @@ html, body {background-color: black;}
     animation: FromLeft 1s;
 }
 
+.language a {
+    font-family: secondfont;
+    font-size: 20px;
+}
+
 .Proposition {
     color: white;
     position: relative;
@@ -86,6 +93,11 @@ html, body {background-color: black;}
     height: 30%;
     text-align: center;
     animation: FromRight 1s;
+}
+
+.Proposition a {
+    font-family: secondfont;
+    font-size: 20px;
 }
 
 .logo {
