@@ -106,15 +106,24 @@ html, body {
 }
 
 
-
 .language {
     position: absolute;
     top: 90%;
-    padding-left: 30%;
-    padding-right: 30%;
-    width: 100%;
+    left: 5%;
+    border: 5px solid white;
+    border-radius: 20px;
+    width: 90%;
     height: 75%;
+    padding-right: 30%;
+    padding-left: 30%;
 }
+
+
+.language h4 {
+    margin-left: -40%;
+}
+
+
 
 .Proposition {
     position: absolute;
@@ -129,7 +138,6 @@ html, body {
     text-align: center;
     animation: FromLeft 1s;
 }
-
 
 .btnGithub {
     position: absolute;
