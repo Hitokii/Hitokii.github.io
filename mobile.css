@@ -55,6 +55,26 @@ html, body {
     }
 }
 
+@keyframes FromBot2 {
+    0% {
+        opacity: 0;
+        margin-top: 10%;
+        bottom: -20%;
+    }
+
+    50% {
+        opacity: 0.5;
+        margin-top: 5%;
+        bottom: 30%;
+    }
+
+    100% {
+        opacity: 1;
+        margin-top: 0%;
+        bottom: 25%;
+    }
+}
+
 .title {
     z-index: 999;
     position: absolute;
@@ -111,6 +131,7 @@ html, body {
 }
 
 .btnAvis {
+    animation: FromBot2 1s;
     transform: translate(-50%);
     position: absolute;
     bottom: 25%;
@@ -120,6 +141,10 @@ html, body {
     background-color: white;
     border-radius: 5px;
     padding: 5px;
+}
+
+.btnGithub a {
+    text-align: center;
 }
 
 .btnAvis a {
