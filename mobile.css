@@ -132,21 +132,23 @@ html, body {
 
 .btnAvis {
     animation: FromBot2 1s;
+    transform: translate(-50%);
     position: absolute;
     bottom: 25%;
     left: 50%;
     scale: 250%;
     width: 21%;
     background-color: white;
-    transform: translate(-50%);
     border-radius: 5px;
     padding: 5px;
 }
 
 .btnGithub a {
+    font-size: 90%;
     text-align: center;
 }
 
 .btnAvis a {
+    font-size: 90%;
     text-align: center;
 }
