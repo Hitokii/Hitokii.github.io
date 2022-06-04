@@ -55,16 +55,22 @@ html, body {
         bottom: -20%;
     }
 
-    50% {
-        opacity: 0.5;
+    30% {
+        opacity: 0.4;
         margin-top: 5%;
-        bottom: 35%;
+        bottom: 40%;
+    }
+
+    70% {
+        opacity: 0.6;
+        margin-top: 5%;
+        bottom: 30%;
     }
 
     100% {
         opacity: 1;
         margin-top: 0%;
-        bottom: 30%;
+        bottom: 35%;
     }
 }
 
@@ -75,16 +81,48 @@ html, body {
         bottom: -20%;
     }
 
-    50% {
-        opacity: 0.5;
+    30% {
+        opacity: 0.4;
         margin-top: 5%;
         bottom: 30%;
+    }
+
+    70% {
+        opacity: 0.6;
+        margin-top: 5%;
+        bottom: 20%;
     }
 
     100% {
         opacity: 1;
         margin-top: 0%;
         bottom: 25%;
+    }
+}
+
+@keyframes FromBot3 {
+    0% {
+        opacity: 0;
+        margin-top: 10%;
+        bottom: -20%;
+    }
+
+    30% {
+        opacity: 0.4;
+        margin-top: 5%;
+        bottom: 20%;
+    }
+
+    70% {
+        opacity: 0.6;
+        margin-top: 5%;
+        bottom: 10%;
+    }
+
+    100% {
+        opacity: 1;
+        margin-top: 0%;
+        bottom: 15%;
     }
 }
 
@@ -141,7 +179,7 @@ html, body {
 
 .btnGithub {
     position: absolute;
-    bottom: 30%;
+    bottom: 35%;
     left: 50%;
     scale: 250%;
     width: 21%;
@@ -164,6 +202,20 @@ html, body {
     padding: 5px;
 }
 
+.btnDemande {
+    animation: FromBot3 1s;
+    transform: translate(-50%);
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    scale: 250%;
+    width: 21%;
+    background-color: white;
+    border-radius: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
 .btnGithub a {
     font-size: 90%;
     text-align: center;
@@ -171,5 +223,10 @@ html, body {
 
 .btnAvis a {
     font-size: 90%;
+    text-align: center;
+}
+
+.btnDemande a {
+    font-size: 60%;
     text-align: center;
 }

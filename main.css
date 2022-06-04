@@ -123,7 +123,7 @@ html, body {background-color: black;}
     position: absolute;
     bottom: 20%;
     width: 5%;
-    left: 20%;
+    left: 17%;
     scale: 250%;
     background-color: white;
     border-radius: 5px;
@@ -146,14 +146,14 @@ html, body {background-color: black;}
 
 .btnGithub:hover {
     scale: 350%;
-    transition: 500ms;
+    transition: 300ms;
 }
            
 .btnAvis {
     position: absolute;
     bottom: 20%;
     width: 5%;
-    left: 48%;
+    left: 47%;
     scale: 250%;
     background-color: white;
     border-radius: 5px;
@@ -176,6 +176,38 @@ html, body {background-color: black;}
 
 .btnAvis:hover {
     scale: 350%;
-    transition: 500ms;
+    transition: 300ms;
+}
+
+
+.btnDemande {
+    position: absolute;
+    bottom: 20%;
+    width: 5%;
+    right: 17%;
+    scale: 250%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    animation: FromBot 1s;
+    transition: 1s;
+}
+
+.btnDemande img {
+    width: 20px;
+    margin-right: 5px;
+    float: left;
+}
+
+.btnDemande a {
+    font-size: 90%;
+    text-decoration: none;
+    text-align: center;
+    color: black; 
+}
+
+.btnDemande:hover {
+    scale: 350%;
+    transition: 300ms;
 }
           
