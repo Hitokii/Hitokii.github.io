@@ -94,6 +94,7 @@ html, body {background-color: black;}
 
 .imgcenter {
     position: fixed;
+    width: 80%;
     top: 10%;
     left: 40%;
   }

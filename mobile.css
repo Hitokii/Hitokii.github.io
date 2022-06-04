@@ -100,8 +100,9 @@
 
 .btnAvis {
     position: absolute;
+    z-index: 999;
     bottom: 30%;
-    left: 25%;
+    left: 70%;
     scale: 250%;
     background-color: white;
     border-radius: 5px;
