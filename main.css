@@ -59,7 +59,7 @@
     100% {
         opacity: 1;
         margin-top: 0%;
-        bottom: 20%;
+        bottom: 10%;
     }
 }
 
@@ -121,7 +121,7 @@ html, body {background-color: black;}
 
 .btnGithub {
     position: absolute;
-    bottom: 20%;
+    bottom: 10%;
     width: 5%;
     left: 17%;
     scale: 250%;
@@ -151,7 +151,7 @@ html, body {background-color: black;}
            
 .btnAvis {
     position: absolute;
-    bottom: 20%;
+    bottom: 10%;
     width: 5%;
     left: 47%;
     scale: 250%;
@@ -182,7 +182,7 @@ html, body {background-color: black;}
 
 .btnDemande {
     position: absolute;
-    bottom: 20%;
+    bottom: 10%;
     width: 5%;
     right: 17%;
     scale: 250%;
