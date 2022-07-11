@@ -1,0 +1,20 @@
+#AUTHOR {
+    font-size: 30px;
+    margin-left: 10%;
+    font-family: Patinio;
+    color: white;
+}
+
+#demo {
+    margin-left: 10%;
+    color: var(--color);
+    font-size: 20px;
+    font-family: Ubuntu;
+}
+
+.logo {
+    transform: translate(0,-5%);
+    margin-top: 50%;
+    width: 100%;
+    opacity: 0.1;
+}
