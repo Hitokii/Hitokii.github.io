@@ -1,0 +1,93 @@
+@font-face {
+    font-family: Patinio;
+    src: url("/assets/fonts/Patinio.ttf");
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url("/assets/fonts/ubuntu.ttf");
+}
+
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fromtop {
+    0% {
+        top: -50%;
+    }
+    80% {
+        top: 5%;
+    }
+    100% {
+        top: 0%;
+    }
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin: 0px;
+    background-color: #0f0f0f;
+}
+
+#AUTHOR {
+    font-size: 50px;
+    margin-left: 10%;
+    font-family: Patinio;
+    color: white;
+}
+
+#AUTHOR:hover {
+    cursor: default;
+}
+
+#AUTHOR #a2 {
+    text-decoration: underline;
+    animation: fade 3s infinite;
+    color: var(--color);
+}
+
+#demo {
+    margin-left: 10%;
+    color: var(--color);
+    font-size: 30px;
+    font-family: Ubuntu;
+}
+
+#inputchar {
+    animation: blink 0.5s infinite 1.5s;
+    color: var(--color);
+    font-size: 30px;
+    font-family: Ubuntu;
+}
+
+.logo {
+    position:  absolute;
+    width: 10%;
+    animation: fromtop 1s ease-in-out;
+}
